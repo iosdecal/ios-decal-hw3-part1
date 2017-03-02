@@ -17,7 +17,7 @@ You might be confused, we haven't taught you anything about using the camera or 
 We've abstracted it away into three parts:
 
 * We'll give you a placeholder for the camera which will let you pick from any of the 10 sample images. In addition, all the images will be stored locally, so anything you post will be private to you. You will use these pictures to create and test the feeds and general structure of the app
-* You will change our image picker into a camera using the AVFoundation Framework
+* You will change the image picker into a camera using the AVFoundation Framework
 * You will implement the backend so the feeds will be shared throughout the class!
 
 ## Instructions ##
