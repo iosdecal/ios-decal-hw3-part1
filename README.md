@@ -8,7 +8,7 @@ In this project, you will be making an iOS application for the Hangman game. Use
 
 Though we do not have many requirements for this project, you are encouraged to customize your app. Here's a screenshot from a past project submission for some inspiration:
 
-![alt text](/README-images/SnapHomeSmall.png)
+![alt text](/previewSnap/previewSnap.001.jpeg)
 ![alt text](/README-images/SnapChatPost.png)
 ![alt text](/README-images/SnapChatFeed.png)
 ![alt text](/README-images/SnapChatPicture.png)
