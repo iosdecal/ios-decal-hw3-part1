@@ -1,14 +1,13 @@
-# Project 2: Snapchat Clone #
+# Project 1: Snapchat Clone #
 # Part 1: The Feed #
 
 ## Due Date ##
-Tuesday, March 14 at 11:59 PM
+Monday, October 16th at 11:59pm
 
 ## Description ##
-In this project, you will be making a Snapchat Clone! Users should be able to take a picture, post to a feed, and then be able to view all the posts in a feed in the "Snap" style of clicking on an image, viewing it, and not being able to see it again. Here are screenshots of our staff version of part 1.
+In this project, you will be making a Snapchat Clone! Users should be able to take a picture, post to a feed, and then be able to view all the posts in a feed in the "Snap" style of clicking on an image, viewing it, and not being able to see it again. Here are screenshots of our staff version of part 1. 
 
-![alt text](/README-images/previewSnap.001.jpeg)
-
+![alt text](/README-images/preview.png)
 
 
 ## Project Structure ##
@@ -21,10 +20,12 @@ We've abstracted it away into three parts:
 * You will implement the backend so the feeds will be shared throughout the class!
 
 ## Instructions ##
-We've provided you with starter files but the only files you should be modifying are:
+We've provided you with starter files but the only files you'll need to modify are:
 
 * ImageFeed.swift - The local model for storing images, essentially adding them to a given array for a feed. 
 * ImagePickerController.swift - Our placeholder for the camera you're going to implement in part 2.
+
+You are allowed (and encouraged!) to create more classes and files for this project.
 
 We've abstracted away the collection view and given you the method, which will get called everytime the user taps an image - Feel free to add any other methods or instance variables you may need:
 
@@ -87,11 +88,4 @@ We will be giving you an already implemented staff solution to base your Part 3 
 
 ## Grading and Submission ##
 
-If you complete all of the required features you will get full credit. We will deduct points for missing features, bugs, and UI layout issues. If you impress us with additional features (see the Optional Features section), you may be awarded an additional extra credit point.
-
-**Note - though encouraged, you do not have to layout your app for horizontal phone orientations. However, TA's will be testing your apps using an arbitrarily picked simulator, so make sure your app layout is supported on all iOS Devices in the vertical orientation.**
-
-
-To submit, please upload your code to either GitHub or Bitbucket, and use the "Github" or "Bitbucket" submission feature on Gradescope (we've experienced the fewest amount of bugs with students who have submitted this way).
-
-Alternatively you can submit your project as a zip folder. To do this please open your ios-decal-proj2 folder in finder, and compress the contents inside (not the folder itself). This should generate a file, **Archive.zip**, that you can submit to Gradescope. Please test that you uploaded correctly by downloading your submission, and testing that downloaded version in Xcode.
+TODO:
