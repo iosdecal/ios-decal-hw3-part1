@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:snapChatProject.xcodeproj">
+      location = "self:/Users/paigeplander/Desktop/ios-decal-proj2-part1/Snapchat Clone.xcodeproj">
    </FileRef>
 </Workspace>

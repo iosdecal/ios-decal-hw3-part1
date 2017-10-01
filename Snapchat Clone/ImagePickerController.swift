@@ -13,8 +13,7 @@ class ImagePickerController: UIViewController, UICollectionViewDataSource, UICol
     @IBOutlet var imageCollectionView: UICollectionView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.imageCollectionView.collectionViewLayout = ImageFlowLayout.init()
-        self.imageCollectionView.backgroundColor = UIColor.lightGray
+        imageCollectionView.collectionViewLayout = ImageFlowLayout()
     }
 
     override func didReceiveMemoryWarning() {
@@ -32,7 +31,6 @@ class ImagePickerController: UIViewController, UICollectionViewDataSource, UICol
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return allImages.count
     }
-    
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         
