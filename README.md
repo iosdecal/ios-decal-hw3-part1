@@ -1,5 +1,4 @@
-# Project 1: Snapchat Clone #
-# Part 1: The Feed #
+# HW3 Part 1: Snapchat Clone - the Feed #
 
 ## Due Date ##
 Monday, October 16th at 11:59pm
@@ -9,15 +8,14 @@ In this project, you will be making a Snapchat Clone! Users should be able to ta
 
 ![alt text](/README-images/preview.png)
 
-
-## Project Structure ##
+## Homework 3 Structure ##
 You might be confused, we haven't taught you anything about using the camera or anything about network requests so how are you supposed to do this project?
 
 We've abstracted it away into three parts:
 
-* We'll give you a placeholder for the camera which will let you pick from any of the 10 sample images. In addition, all the images will be stored locally, so anything you post will be private to you. You will use these pictures to create and test the feeds and general structure of the app
-* You will change the image picker into a camera using the AVFoundation Framework
-* You will implement the backend so the feeds will be shared throughout the class!
+* Part 1 (this part - due Monday 10/16) - We'll give you a placeholder for the camera which will let you pick from any of the 10 sample images. In addition, all the images will be stored locally, so anything you post will be private to you. You will use these pictures to create and test the feeds and general structure of the app
+* Part 2 (due Monday 11/6) You'll connect your posts to a realtime cloud database (firebase)
+* Part 3 (lab) - You'll add a photo picker + camera to your app using AVFoundation
 
 ## Instructions ##
 We've provided you with starter files but the only files you'll need to modify are:
@@ -25,31 +23,22 @@ We've provided you with starter files but the only files you'll need to modify a
 * ImageFeed.swift - The local model for storing images, essentially adding them to a given array for a feed. 
 * ImagePickerController.swift - Our placeholder for the camera you're going to implement in part 2.
 
-You are allowed (and encouraged!) to create more classes and files for this project.
+**You will need to create more classes and files for this project.**
 
 We've abstracted away the collection view and given you the method, which will get called everytime the user taps an image - Feel free to add any other methods or instance variables you may need:
 
 	func selectImage(_ image: UIImage) {}
-	
-* TabBarController.swift - Class to customize the appearance of the tab bar
-* PostNavigationController - Class to customize the appearance of the navigation bar
-
-
-Begin by cloning the project repository onto your local computer:
-
-	git clone https://github.com/iosdecal/ios-decal-proj2-part1.git
-
-Though submissions are graded through Gradescope, you are encouraged to fork this repo and make commits to your own forked repository (especially if you are new to Git!). Instructions to do this can be found [here](https://help.github.com/articles/fork-a-repo/) (you can also ask a TA for help doing this!)
 
 ## Custom UI ##
-Just like the hangman project, we haven't given any official requirements on how it should look. Our staff version is just one way you can do it. Any UI design that fulfills all the requirements is a valid UI and will be given full credit. More information on what icons can/can't be used in the Icon Guidelines. 
+Just like the hangman project, we haven't given any official requirements on how it should look. Our staff version is just one way you can do it. Any UI design that fulfills all the requirements is a valid UI and will be given full credit. More information on what icons can/can't be used in the Icon Guidelines.
+
 ## Requirements ##
 You **must** include all features listed under the "Image Posting" and "Image Feed" sections and adhere to the "Image Asset Guidelines".
 
 ###  Image Posting ###
 ##### Screen Elements #####
 * UITableView of feeds to post to
-* UIbutton to post snap to feed
+* UIButton to post snap to feed
 * Status indicator that displays what feed you have selected to post to
 * Some indicator that you have posted the snap
 
@@ -87,5 +76,4 @@ The only ones you may change completely are the tab bar icons. Everything else m
 We will be giving you an already implemented staff solution to base your Part 3 off of so any optional additions/features would be more suited to that part of the project but feel free to experiment during this stage.
 
 ## Grading and Submission ##
-
-TODO:
+There is no autograder for this project, so you will need to either create a private repository for your files and submit to  using Github submission (recommended) or submit as a zip file to Gradescope
