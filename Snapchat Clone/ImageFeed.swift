@@ -18,4 +18,13 @@ var threads: [String: [UIImage]] = ["memes": [], "dog spots": [], "random": []]
 
 let threadNames = ["memes", "dog spots", "random"]
 
-var allImages: [UIImage] = [UIImage(named: "puppy")!, UIImage(named: "smile")!, UIImage(named: "Campanile")!, UIImage(named: "berkAtNight")!, UIImage(named: "anotherCutePuppy")!]
+// The images used to populate the collection view in ImagePickerController
+var allImages: [UIImage] = [UIImage(named: "dog1")!,
+                            UIImage(named: "meme1")!,
+                            UIImage(named: "other1")!,
+                            UIImage(named: "dog2")!,
+                            UIImage(named: "meme2")!,
+                            UIImage(named: "other2")!,
+                            UIImage(named: "dog3")!,
+                            UIImage(named: "meme3")!,
+                            UIImage(named: "other3")!]
