@@ -46,7 +46,7 @@
             </objects>
             <point key="canvasLocation" x="-478" y="-425"/>
         </scene>
-        <!--Snapchat 2.0-->
+        <!--Snapchat Clone-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController automaticallyAdjustsScrollViewInsets="NO" id="BYZ-38-t0r" customClass="ImagePickerController" customModule="Snapchat_Clone" customModuleProvider="target" sceneMemberID="viewController">
@@ -68,7 +68,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="pickImageCell" id="x2i-KI-u6j" customClass="imageCollectionVieCell" customModule="Snapchat_Clone" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="pickImageCell" id="x2i-KI-u6j" customClass="ImageCollectionViewCell" customModule="Snapchat_Clone" customModuleProvider="target">
                                         <rect key="frame" x="69.5" y="0.0" width="236" height="203"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -87,7 +87,7 @@
                                             <constraint firstAttribute="bottomMargin" secondItem="2v8-Yu-FIQ" secondAttribute="bottom" id="jPw-oB-nQh"/>
                                         </constraints>
                                         <connections>
-                                            <outlet property="image" destination="2v8-Yu-FIQ" id="D2P-b4-kAh"/>
+                                            <outlet property="image" destination="2v8-Yu-FIQ" id="Rsd-0D-Mgq"/>
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
@@ -105,7 +105,7 @@
                             <constraint firstItem="wYC-QR-9eI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="rYT-DC-Fxg"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Snapchat 2.0" id="1DI-gn-L1G"/>
+                    <navigationItem key="navigationItem" title="Snapchat Clone" id="1DI-gn-L1G"/>
                     <connections>
                         <outlet property="imageCollectionView" destination="wYC-QR-9eI" id="lwC-Kg-QfQ"/>
                     </connections>

@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		417986C31E6631020050E1DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 417986C21E6631020050E1DF /* Assets.xcassets */; };
 		417986C51E6632C40050E1DF /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417986C41E6632C40050E1DF /* TabBarController.swift */; };
-		417986C91E664AE40050E1DF /* imageCollectionVieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417986C81E664AE40050E1DF /* imageCollectionVieCell.swift */; };
+		417986C91E664AE40050E1DF /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417986C81E664AE40050E1DF /* ImageCollectionViewCell.swift */; };
 		417986CB1E664CB60050E1DF /* ImageFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417986CA1E664CB60050E1DF /* ImageFlowLayout.swift */; };
 		4196F2CB1E6509E8009916E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4196F2CA1E6509E8009916E4 /* AppDelegate.swift */; };
 		4196F2D01E6509E8009916E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4196F2CE1E6509E8009916E4 /* Main.storyboard */; };
@@ -22,7 +22,7 @@
 /* Begin PBXFileReference section */
 		417986C21E6631020050E1DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		417986C41E6632C40050E1DF /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
-		417986C81E664AE40050E1DF /* imageCollectionVieCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = imageCollectionVieCell.swift; sourceTree = "<group>"; };
+		417986C81E664AE40050E1DF /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
 		417986CA1E664CB60050E1DF /* ImageFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageFlowLayout.swift; sourceTree = "<group>"; };
 		4196F2C71E6509E8009916E4 /* Snapchat Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Snapchat Clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4196F2CA1E6509E8009916E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -65,7 +65,7 @@
 		417986CE1E6657650050E1DF /* Cells */ = {
 			isa = PBXGroup;
 			children = (
-				417986C81E664AE40050E1DF /* imageCollectionVieCell.swift */,
+				417986C81E664AE40050E1DF /* ImageCollectionViewCell.swift */,
 			);
 			name = Cells;
 			sourceTree = "<group>";
@@ -187,7 +187,7 @@
 				417986CB1E664CB60050E1DF /* ImageFlowLayout.swift in Sources */,
 				4196F2E31E6514EE009916E4 /* ImagePickerController.swift in Sources */,
 				417986C51E6632C40050E1DF /* TabBarController.swift in Sources */,
-				417986C91E664AE40050E1DF /* imageCollectionVieCell.swift in Sources */,
+				417986C91E664AE40050E1DF /* ImageCollectionViewCell.swift in Sources */,
 				4196F2DD1E650ECA009916E4 /* ImageFeed.swift in Sources */,
 				4196F2CB1E6509E8009916E4 /* AppDelegate.swift in Sources */,
 				4196F2ED1E6609B0009916E4 /* PostNavigationController.swift in Sources */,

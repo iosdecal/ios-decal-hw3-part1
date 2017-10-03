@@ -8,6 +8,7 @@
 
 import UIKit
 
+// This class should remind you of lab 3. That's probably because it's exactly the same!
 class ImagePickerController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate {
     
     @IBOutlet var imageCollectionView: UICollectionView!
@@ -34,12 +35,17 @@ class ImagePickerController: UIViewController, UICollectionViewDataSource, UICol
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "pickImageCell", for: indexPath) as! imageCollectionVieCell
+        guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "pickImageCell", for: indexPath) as? ImageCollectionViewCell else {
+            print("error dequeuing cell at index path \(indexPath)")
+            return UICollectionViewCell()
+        }
         cell.image.image = allImages[indexPath.row]
         return cell
     }
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        let selectedCell = collectionView.cellForItem(at: indexPath) as! imageCollectionVieCell
-        selectImage(selectedCell.image.image!)
+        if let selectedCell = collectionView.cellForItem(at: indexPath) as? ImageCollectionViewCell {
+            selectImage(selectedCell.image.image!)
+        }
+        
     }
 }
