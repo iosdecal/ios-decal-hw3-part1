@@ -13,8 +13,8 @@ You might be confused, we haven't taught you anything about using the camera or 
 
 We've abstracted it away into three parts:
 
-* Part 1 (this part - due Monday 03/18) - We'll give you a placeholder for the camera which will let you pick from any of the 10 sample images. In addition, all the images will be stored locally, so anything you post will be private to you. You will use these pictures to create and test the feeds and general structure of the app
-* Part 2 (due Monday 04/2) You'll connect your posts to a realtime cloud database (firebase)
+* Part 1 (this part - due Monday, March 12th) - We'll give you a placeholder for the camera which will let you pick from any of the 10 sample images. In addition, all the images will be stored locally, so anything you post will be private to you. You will use these pictures to create and test the feeds and general structure of the app
+* Part 2 (due Monday April 2nd) You'll connect your posts to a realtime cloud database (firebase)
 * Part 3 (lab) - You'll add a photo picker + camera to your app using AVFoundation
 
 ## Instructions ##
