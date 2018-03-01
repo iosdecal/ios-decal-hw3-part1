@@ -1,7 +1,7 @@
 # HW3 Part 1: Snapchat Clone - the Feed #
 
 ## Due Date ##
-Monday, October 16th at 11:59pm
+Monday, March 12th at 11:59pm
 
 ## Description ##
 In this project, you will be making a Snapchat Clone! Users should be able to take a picture, post to a feed, and then be able to view all the posts in a feed in the "Snap" style of clicking on an image, viewing it, and not being able to see it again. Here are screenshots of our staff version of part 1. 
@@ -13,8 +13,8 @@ You might be confused, we haven't taught you anything about using the camera or 
 
 We've abstracted it away into three parts:
 
-* Part 1 (this part - due Monday 10/16) - We'll give you a placeholder for the camera which will let you pick from any of the 10 sample images. In addition, all the images will be stored locally, so anything you post will be private to you. You will use these pictures to create and test the feeds and general structure of the app
-* Part 2 (due Monday 11/6) You'll connect your posts to a realtime cloud database (firebase)
+* Part 1 (this part - due Monday 03/18) - We'll give you a placeholder for the camera which will let you pick from any of the 10 sample images. In addition, all the images will be stored locally, so anything you post will be private to you. You will use these pictures to create and test the feeds and general structure of the app
+* Part 2 (due Monday 04/2) You'll connect your posts to a realtime cloud database (firebase)
 * Part 3 (lab) - You'll add a photo picker + camera to your app using AVFoundation
 
 ## Instructions ##
@@ -37,8 +37,8 @@ You **must** include all features listed under the "Image Posting" and "Image Fe
 
 ###  Image Posting ###
 ##### Screen Elements #####
-* UITableView of feeds to post to
-* UIButton to post snap to feed
+* UITableView of feeds to post snaps to
+* UIButton to press in order to make post to feed
 * Status indicator that displays what feed you have selected to post to
 * Some indicator that you have posted the snap
 
